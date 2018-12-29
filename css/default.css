@@ -4,12 +4,17 @@ html body {
 }
 
 #app {
-  /* border: 1px solid blue; */
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.frozen {
+  filter: brightness(0.5);
 }
 
 #app>canvas {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 64px;
 }
